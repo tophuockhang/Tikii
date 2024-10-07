@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/Css/HeaderStyleSheet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-first-layout-text">
+            <span>Freeship đơn từ 45k, giảm nhiều hơn cùng </span>
+            <span class="blue-word"><b>FREESHIP</b></span>
+            <span class="red-word"><b>XTRA</b></span>
+        </div>
+
+        <div class="header-second-layout">
+            <div class="left-logo-tiki">
+                <a href="#"><img src="~/Img/logo-tiki.png" /></a>
+            </div>
+            <div class="middle-above-searchbar">
+                <div class="search-container">
+                    <div class="left-section-header">
+                        <input type="text" placeholder="Giao nhanh 3h" value="" />
+                        <button class="search-button">Tìm kiếm</button>
+                    </div>
+                    <div class="right-section-header">
+                        <a href="#" class="Trang-chu">Trang Chủ</a>
+                        <a href="#" class="tai-khoan">Tài khoản</a>
+                        <a href="#" class="gio-hang">Giỏ hàng</a>
+                    </div>
+                </div>
+
+                <div class="category-text">
+                    <div class="left-section-category">
+                        <a href="#"><span>Điện gia dụng</span></a>
+                        <a href="#"><span>Xe cộ</span></a>
+                        <a href="#"><span>Mẹ &amp; bé</span></a>
+                        <a href="#"><span>Khỏe đẹp</span></a>
+                        <a href="#"><span>Nhà cửa</span></a>
+                        <a href="#"><span>Sách</span></a>
+                        <a href="#"><span>Thể thao</span></a>
+                    </div>
+                    <div class="rigth-section-location">
+                        <div class="location">
+                           
+                            <div class="address">  <h2>Giao đến: </h2>Q.1,P.Bến Nghé, Hồ Chí Minh</div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            
+        
+
+        </div>
+
+    </header>
+
+    <div>@RenderBody()</div>
+</body>
+</html>

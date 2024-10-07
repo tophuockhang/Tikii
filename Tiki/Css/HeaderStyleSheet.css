@@ -1,0 +1,126 @@
+﻿body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.header-first-layout-text{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    width:100%;
+    height: 20px;
+    background-color: #f7dfdf;
+}
+.blue-word {
+    color: blue;
+    font-weight: 300;
+}
+.red-word{
+    color: red;
+}
+
+.header-second-layout {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color:white;
+  /*  border: 1px solid black;*/
+}
+.left-logo-tiki img {
+    margin-left: 60px;
+    width: 120px;
+    height: 80px;
+}
+.middle-above-searchbar {
+    display: flex;
+    flex-direction: column; /* Stack search-container and category-text vertically */
+    margin-left: 20px;
+    width: 100%; /* Adjust the width to fit your design */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Make sure the input and button stay on the same line */
+}
+
+    .middle-above-searchbar input {
+        width: 500px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 10px 10px;
+    }
+
+ .search-button {
+    width: 80px;
+    margin-left: 10px;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+}
+
+        .search-button:hover {
+            background-color: lightblue;
+        }
+
+.category-text {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    
+}
+a{
+    text-decoration:none;
+}
+.right-section-header {
+    display: flex;
+    margin-left: 100px;
+    gap: 10px;
+}
+.Trang-chu {
+    width: 100px;
+    margin-left: 10px;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+    .Trang-chu:hover {
+        background-color: lightblue;
+    }
+.tai-khoan {
+    width: 100px;
+    margin-left: 10px;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white ActiveBorder;
+    color: gray;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+    .tai-khoan:hover {
+        background-color: lightblue;
+    }
+.gio-hang {
+    width: 100px;
+    margin-left: 10px;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+.gio-hang:hover{
+    background-color: lightblue;
+}
